@@ -12,3 +12,5 @@ Digital Design using Verilog HDL(Anseong Polytechnic University): 2024-2
 * Gate Level Modeling1 (Basic Overview)
 ## Week 4
 * Simulation using Cadence Xcelium simulator
+## Week 5
+* Makefile and Automation
