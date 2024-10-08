@@ -20,13 +20,13 @@ input i3;
 input s1;
 input s0;
 
-// data flow modelling
+// 1. Data Flow Modeling
 assign out =(i0 & ~s1 & ~s0) | (i1 & ~s1 & s0) |(i2 & s1 & ~s0) |(i3 & s1 & s0);
 
 
 
 
-
+// 2. Gate Level Modeling
 /*
 // internal signal declaration
 wire s1n;
