@@ -1,4 +1,4 @@
-module concatenation_operator();
+module concatenation;
 
 initial begin
   // concatenation
