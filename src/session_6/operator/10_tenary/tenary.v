@@ -7,7 +7,7 @@ assign out = (enable) ? data : 1'bz;
 
 initial begin
   $display ("time\t enable data out");
-  $monitor ("%g\t %b      %b    %b",$time,enable,data,out); // \g represents shorter form of real number
+  $monitor ("%g\t %b      %b    %b",$time,enable,data,out); // %g represents shorter form of real number
   enable = 0;
   data = 0;
   #1 data = 1;
