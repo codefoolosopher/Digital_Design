@@ -33,13 +33,13 @@ task disp;
 	$display
 	(
 		"$time=%0d", $time, " ns"
-		, " strobe = ", stb_1G_n
+		, " strobe = |", stb_1G_n
 		, " sel1 = ", sel1
-		, " sel0 = ", sel0
+		, " sel0 = |", sel0
 		, " in_c0 = ", in_1C0
 		, " in_c1 = ", in_1C1
 		, " in_c2 = ", in_1C2
-		, " in_c3 = ", in_1C3
+		, " in_c3 = |", in_1C3
 		, " out = ", out_1Y
 	);
 	end
