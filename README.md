@@ -15,3 +15,6 @@ Digital Design using Verilog HDL(Anseong Polytechnic University): 2024-2
 
 ## Session 5
 * Makefile and Automation
+
+## Session 6
+* Data Flow Modeling and Operators
