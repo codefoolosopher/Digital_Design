@@ -7,7 +7,7 @@ wire 	out_1Y, out_2Y; // output
 reg 	sel1, sel0; // select
 reg 	stb_1G_n, stb_2G_n; // strobe(active low)
 reg 	in_1C0, in_1C1, in_1C2, in_1C3; // data input to the first mux
-reg 	in_2C0, in2C1, in_2C2, in_2C3; // data input to the second mux
+reg 	in_2C0, in_2C1, in_2C2, in_2C3; // data input to the second mux
 
 // DUT instantiation
 SN54LS153 DUT (
