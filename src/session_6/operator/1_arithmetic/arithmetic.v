@@ -1,7 +1,7 @@
 module arithmetic;
 
 reg [7:0] foo;
-reg [7:0] bar;
+reg [7:0] bar; // type casting
 
 initial 
 begin
