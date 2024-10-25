@@ -1,14 +1,14 @@
 clean: 
 	rm -rf xcelium.d *.log *.history *.key
-	rm -rf worklib cds.lib hdl.var
+	rm -rf worklib *.lib hdl.var
 	rm -rf *.lib *.shm
 set:
-	mkdir ./worklib
+	mkdir ./sn54ls32.lib
 	touch ./cds.lib
 	touch ./hdl.var
 	chmod +x cds.lib
 	chmod +x hdl.var
-	echo "define SN54LS32_lib ./worklib" >> cds.lib
+	echo "define SN54LS32_lib ./sn54ls32.lib" >> cds.lib
 	echo "define WORK SN54LS32_lib" >> hdl.var
 
 compile:

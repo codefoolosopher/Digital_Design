@@ -21,7 +21,9 @@ input s1;
 input s0;
 
 // 1. Data Flow Modeling
-assign out =(i0 & ~s1 & ~s0) | (i1 & ~s1 & s0) |(i2 & s1 & ~s0) |(i3 & s1 & s0);
+//assign out =(i0 & ~s1 & ~s0) | (i1 & ~s1 & s0) |(i2 & s1 & ~s0) |(i3 & s1 & s0);
+// 2. tenary operator( a ? 1 : 0 )
+assign out = 
 
 
 
