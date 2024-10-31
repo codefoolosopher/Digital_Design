@@ -24,6 +24,7 @@ SN54LS32 DUT (
 );
 
 // put stimulus
+// TODO: set stimulus using Grey Code!
 initial begin
 	
 // t=0, init
