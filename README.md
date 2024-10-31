@@ -18,3 +18,7 @@ Digital Design using Verilog HDL(Anseong Polytechnic University): 2024-2
 
 ## Session 6
 * Data Flow Modeling and Operators
+
+## Session 7
+* Behavioral Modeling (1)
+
