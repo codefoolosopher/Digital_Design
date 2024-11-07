@@ -1,0 +1,22 @@
+xmelab(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	24.03-s005: Started on Nov 01, 2024 at 14:15:42 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_initial
+
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.tb_initial:module <0x72b68b72>
+			streams:   4, words:  3218
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 1       1
+		Registers:               5       5
+		Initial blocks:          4       4
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.tb_initial:module
+TOOL:	xmelab(64)	24.03-s005: Exiting on Nov 01, 2024 at 14:15:42 KST  (total: 00:00:00)

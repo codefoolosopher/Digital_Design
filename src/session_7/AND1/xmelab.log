@@ -1,0 +1,23 @@
+xmelab(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	24.03-s005: Started on Nov 01, 2024 at 15:02:09 KST
+xmelab
+    -MESS
+    -access rwc
+    ander
+
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.ander:module <0x5665e04f>
+			streams:   1, words:   386
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 1       1
+		Registers:               1       1
+		Scalar wires:            2       -
+		Always blocks:           1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.ander:module
+TOOL:	xmelab(64)	24.03-s005: Exiting on Nov 01, 2024 at 15:02:09 KST  (total: 00:00:00)
