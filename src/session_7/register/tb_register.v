@@ -38,7 +38,9 @@ module tb_register (); // top module
 	// t = 2300ns
 	#300 in1 = 1'b1;
 	     in2 = 4'b1111;
-	
+	// t=2400
+	#100 rst_n = 1'b1;
+
 	// t = 2500ns, terminate sim
 	#200 $finish;
 	end

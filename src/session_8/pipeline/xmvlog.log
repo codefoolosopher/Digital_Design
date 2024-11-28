@@ -1,0 +1,15 @@
+xmvlog(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.03-s005: Started on Nov 29, 2024 at 00:20:21 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./pipeline.v
+    ./tb_pipeline.v
+
+file: ./pipeline.v
+	module work_lib.pipeline
+		errors: 0, warnings: 0
+file: ./tb_pipeline.v
+	module work_lib.tb_pipeline
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	24.03-s005: Exiting on Nov 29, 2024 at 00:20:21 KST  (total: 00:00:00)

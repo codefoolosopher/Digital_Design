@@ -12,6 +12,7 @@ input wire clk;
 input wire rst_n;
 output reg [6:0] cnt;
 
+
 always @(posedge clk, negedge rst_n) 
 begin
 	if (~rst_n) cnt <= 7'b0; // similar to loop exit condition

@@ -21,8 +21,10 @@ module tb_counter_loop ();
 		// t = 150: reset release -> start to count
 		# 50
 		rst_n <= 1'b1;
-		
-		// t = 1150
+		// t =3150
+		# 3000
+		rst_n <= 1'b0;
+		// t = 3350
 		# 2000
 		$finish;
 	end

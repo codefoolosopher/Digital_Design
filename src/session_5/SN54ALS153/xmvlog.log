@@ -1,0 +1,15 @@
+xmvlog(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.03-s005: Started on Nov 21, 2024 at 01:50:02 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./SN54LS153.v
+    ./tb_sn54ls153.v
+
+file: ./SN54LS153.v
+	module SN54LS153_lib.SN54LS153
+		errors: 0, warnings: 0
+file: ./tb_sn54ls153.v
+	module SN54LS153_lib.tb_sn54ls153
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	24.03-s005: Exiting on Nov 21, 2024 at 01:50:02 KST  (total: 00:00:00)

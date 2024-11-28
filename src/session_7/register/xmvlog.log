@@ -1,0 +1,15 @@
+xmvlog(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	24.03-s005: Started on Nov 15, 2024 at 15:39:57 KST
+xmvlog
+    -MESS
+    -linedebug
+    ./register.v
+    ./tb_register.v
+
+file: ./register.v
+	module work_lib.register
+		errors: 0, warnings: 0
+file: ./tb_register.v
+	module work_lib.tb_register
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	24.03-s005: Exiting on Nov 15, 2024 at 15:39:57 KST  (total: 00:00:00)

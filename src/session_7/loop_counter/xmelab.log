@@ -1,0 +1,29 @@
+xmelab(64): 24.03-s005: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	24.03-s005: Started on Nov 15, 2024 at 14:51:21 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_counter_loop
+
+	Elaborating the design hierarchy:
+		Caching library 'work_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.counter_loop:module <0x2f11e2f1>
+			streams:   4, words:  1446
+		work_lib.tb_counter_loop:module <0x7496102f>
+			streams:   9, words:  3675
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               3       3
+		Scalar wires:            2       -
+		Vectored wires:          1       -
+		Always blocks:           2       2
+		Initial blocks:          1       1
+		Pseudo assignments:      2       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.tb_counter_loop:module
+TOOL:	xmelab(64)	24.03-s005: Exiting on Nov 15, 2024 at 14:51:21 KST  (total: 00:00:00)
